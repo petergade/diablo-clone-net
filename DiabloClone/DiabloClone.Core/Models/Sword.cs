@@ -1,6 +1,6 @@
 namespace DiabloClone.Core.Models;
 
-public class Sword : InventoryItem
+public class Sword : Weapon
 {
     
 }

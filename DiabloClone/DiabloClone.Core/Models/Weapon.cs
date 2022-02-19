@@ -1,6 +1,6 @@
-﻿namespace DiabloClone.Core.Models
+namespace DiabloClone.Core.Models
 {
-    public abstract class Weapon
+    public abstract class Weapon : InventoryItem
     {
         public int Attack { get; set; }
 
