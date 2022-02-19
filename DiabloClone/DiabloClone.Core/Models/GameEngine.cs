@@ -23,7 +23,7 @@ namespace DiabloClone.Core.Models
 
         private void NextTurn(Character attacker, Character defender)
         {
-            defender.Health -= Random.Next(1, 5);
+            defender.Health -= Random.Next(1, 6);
         }
 
         public void Fight()
